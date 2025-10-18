@@ -6,12 +6,32 @@ box-sizing: border-box;
 html,body{
 width: 100%;
 height: 100%;
-background-color: black;
 }
-h1{
-    text-align: center;
-    padding: 250px;
-    font-size: 200px;
-    font-weight: 900;
-    color: white;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0d1117;
+}
+
+
+.subscribe-btn {
+  background-color: #009dff; 
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3);
+}
+
+.subscribe-btn:hover {
+  background-color: #e60000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.5);
 }
